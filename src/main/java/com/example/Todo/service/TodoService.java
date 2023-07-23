@@ -9,6 +9,7 @@ import java.util.function.Predicate;
 
 @Service
 public class TodoService {
+    
     private static List<Todo> todos=new ArrayList<>(); // In-memory database
     private static int todoCount=0;
 
